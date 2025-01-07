@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajalakshmi Vilas - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+            background-image: url('sweet-background.jpg'), linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)); /* Add gradient on top of the image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            animation: backgroundMove 30s infinite linear; /* Animation for dynamic effect */
+        }
+
+        @keyframes backgroundMove {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        header {
+            background-color: #8a2be2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            border: 5px solid #ffdf00;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: scale(1.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #9370db;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 80%;
+            color: black;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #8a2be2;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: #8a2be2;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="lakshmi.jpg" alt="Goddess Lakshmi">
+        <h1>Rajalakshmi Vilas</h1>
+        <p>Your one-stop shop for delicious sweets!</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Rajalakshmi Vilas</h1>
+        <p>Indulge in the finest collection of traditional and modern sweets.</p>
+    </div>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Rajalakshmi Vilas, we bring you a wide variety of mouthwatering sweets made with love and tradition. Perfect for any occasion!</p>
+    </section>
+    <section id="products" class="section">
+        <h2>Our Products</h2>
+        <h3>Sweets</h3>
+        <div class="products">
+            <div class="product">
+                <img src="laddu.jpg" alt="Laddu">
+                <h3>Laddu</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="mysorepak.jpg" alt="Mysore Pak">
+                <h3>Mysore Pak</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="jalebi.jpg" alt="Jalebi">
+                <h3>Jalebi</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="halwa.jpg" alt="Halwa">
+                <h3>Halwa</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="palkova.jpg" alt="Palkova">
+                <h3>Palkova</h3>
+                <p>₹400/kg</p>
+            </div>
+            <div class="product">
+                <img src="neivilanga.jpg" alt="Nei Vilanga">
+                <h3>Nei Vilanga</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="muscothhalwa.jpg" alt="Muscoth Halwa">
+                <h3>Muscoth Halwa</h3>
+                <p>₹280/kg</p>
+            </div>
+            <div class="product">
+                <img src="sweetboondhi.jpg" alt="Sweet Boondi">
+                <h3>Sweet Boondi</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="sweetchev.jpg" alt="Sweet Chev">
+                <h3>Sweet Chev</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="sweetcuts.jpg" alt="Sweet Cuts">
+                <h3>Sweet Cuts</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="soanpapdi.jpg" alt="Soan Padi">
+                <h3>Soan Papdi</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="badusha.jpg" alt="Badusha">
+                <h3>Badusha</h3>
+                <p>₹300/kg</p>
+            </div>
+
+
+
+        </div>
+        <h3>Savory Snacks</h3>
+        <div class="products">
+            <div class="product">
+                <img src="mixture.jpg" alt="Mixture">
+                <h3>Mixture</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="pakoda.jpg" alt="Pakoda">
+                <h3>Pakoda</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="muruku.jpg" alt="Muruku">
+                <h3>Muruku</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="karachev.jpg" alt="Karachev">
+                <h3>Karachev</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="milaguchev.jpg" alt="Milaguchev">
+                <h3>Milaguchev</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="omapodi.jpg" alt="Omapodi">
+                <h3>Omapodi</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="andhramurukku.jpg" alt="Andhra Murukku">
+                <h3>Andhra Murukku</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="thattai.jpg" alt="Thattai">
+                <h3>Thattai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="minithattai.jpg" alt="Mini Thattai">
+                <h3>Mini Thattai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="cheval.jpg" alt="Cheval">
+                <h3>Cheval</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="thengaipaalmurukku.jpg" alt="Thengaipaal Murukku">
+                <h3>Thengaipaal Murukku</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="seedai.jpg" alt="Seedai">
+                <h3>Seedai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="pachaipayarufry.jpg" alt="Pachai Payaru Fry">
+                <h3>Pachai Payaru Fry</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="minimurukku.jpg" alt="Mini Murukku">
+                <h3>Mini Murukku</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="karaboondhi.jpg" alt="Kara Boondi">
+                <h3>Kara Boondi</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="bombaymixture.jpg" alt="Bombay Mixture">
+                <h3>Bombay Mixture</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="achumurukku.jpg" alt="Achu Murukku">
+                <h3>Achu Murukku</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="cuts.jpg" alt="Cuts">
+                <h3>Cuts</h3>
+                <p>₹300/kg</p>
+            </div>
+
+
+        </div>
+
+        <!-- Chips Section -->
+        <h3>Chips</h3>
+        <div class="products">
+            <div class="product">
+                <img src="cornchips.jpg" alt="Corn Chips">
+                <h3>Corn Chips</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="potatochips.jpg" alt="Potato Chips">
+                <h3>Potato Chips</h3>
+                <p>₹450/kg</p>
+            </div>
+            <div class="product">
+                <img src="bananachips.jpg" alt="Banana Chips">
+                <h3>Banana Chips</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="rawbananachips.jpg" alt="Raw Banana Chips">
+                <h3>Raw Banana Chips</h3>
+                <p>₹400/kg</p>
+            </div>
+            <div class="product">
+                <img src="stickchips.jpg" alt="Stick Chips">
+                <h3>Stick Chips</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="wheelchips.jpg" alt="Wheel Chips">
+                <h3>Wheel Chips</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="heartchips.jpg" alt="Heart Chips">
+                <h3>Heart Chips</h3>
+                <p>₹300/kg</p>
+            </div>
+
+
+        </div>
+
+        <!-- Kadalai (Peanut) Section -->
+        <h3>Kadalai (Peanut)</h3>
+        <div class="products">
+            <div class="product">
+                <img src="neikadalai.jpg" alt="Nei Kadalai">
+                <h3>Nei Kadalai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="masalkadalai.jpg" alt="Masal Kadalai">
+                <h3>Masal Kadalai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="verkadalai.jpg" alt="Ver Kadalai">
+                <h3>Ver Kadalai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="kadalaimittai.jpg" alt="Kadalai Mittai">
+                <h3>Kadalai Mittai</h3>
+                <p>₹300/kg</p>
+            </div>
+            <div class="product">
+                <img src="kondaikadalaifry.jpg" alt="Konda Kadalai Fry">
+                <h3>Konda Kadalai Fry</h3>
+                <p>₹300/kg</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Address: 108 B, Madurai Road, Tirunelveli Junction, Tamil Nadu, 627001</p>
+    <p>Contact Number: +91 96777 26150 , +91 8870489133</p>
+    <p>Shop Timings: 9:00 AM - 10:30 PM (Monday to Sunday)</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rajalakshmi Vilas | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
